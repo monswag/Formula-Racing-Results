@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.5,0,0,0.5,-42.8,-275)">
+        <g id="Pole">
+            <rect x="85.6" y="550" width="50" height="50" style="fill:rgb(0,212,72);"/>
+            <g transform="matrix(2.03259,0,0,2.2367,-10930.4,-1031.93)">
+                <path d="M5422.65,716.175L5422.65,710.835L5441.35,710.835L5441.35,716.2" style="fill:none;stroke:white;stroke-width:1.87px;"/>
+            </g>
+            <g transform="matrix(2,0,0,2,100.88,593.594)">
+                <path d="M5.52,0C5.387,0 5.28,-0.04 5.2,-0.12C5.12,-0.2 5.08,-0.307 5.08,-0.44L5.08,-12.36L1.5,-9.6C1.393,-9.52 1.283,-9.487 1.17,-9.5C1.057,-9.513 0.96,-9.573 0.88,-9.68L0.66,-9.96C0.58,-10.067 0.547,-10.177 0.56,-10.29C0.573,-10.403 0.633,-10.5 0.74,-10.58L5,-13.86C5.093,-13.927 5.18,-13.967 5.26,-13.98C5.34,-13.993 5.427,-14 5.52,-14L5.9,-14C6.033,-14 6.14,-13.96 6.22,-13.88C6.3,-13.8 6.34,-13.693 6.34,-13.56L6.34,-0.44C6.34,-0.307 6.3,-0.2 6.22,-0.12C6.14,-0.04 6.033,0 5.9,0L5.52,0Z" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

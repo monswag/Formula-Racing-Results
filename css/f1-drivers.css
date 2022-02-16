@@ -1,0 +1,187 @@
+:root {
+    --car-alb: '23';
+    --car-alo: '14';
+    --car-bot: '77';
+    --car-gas: '10';
+    --car-ham: '44';
+    --car-lat: '6';
+    --car-lec: '16';
+    --car-maz: '9';
+    --car-msc: '47';
+    --car-nor: '4';
+    --car-oco: '31';
+    --car-per: '11';
+    --car-ric: '3';
+    --car-rus: '63';
+    --car-sai: '55';
+    --car-str: '18';
+    --car-tsu: '22';
+    --car-ver: '1';
+    --car-vet: '5';
+    --car-zho: '24';
+
+    --alfa-romeo: #A22B31;
+    --alpha-tauri: #31435F;
+    --alpine: #3F8EF7;
+    --aston-martin: #2E6C64;
+    --ferrari: #dc0000;
+    --haas: #8B8B8B;
+    --mclaren: #F19C38;
+    --mercedes: #5FCEBC;
+    --red-bull: #3405E5;
+    --williams: #2458F5;
+}
+/* Each team's color */
+.alfa-romeo {
+    background: var(--alfa-romeo);
+}
+.alpha-tauri {
+background: var(--alpha-tauri);
+}
+.alpine {
+background: var(--alpine);
+}
+.aston-martin {
+background: var(--aston-martin);
+}
+.ferrari {
+background: var(--ferrari);
+}
+.haas {
+background: var(--haas);
+}
+.mclaren {
+background: var(--mclaren);
+}
+.mercedes {
+background: var(--mercedes);
+}
+.red-bull {
+background: var(--red-bull);
+}
+.williams {
+background: var(--williams);
+}
+/* Each team's driver label */
+.alb::before, .alo::before, .bot::before, .gas::before, .ham::before, .lat::before,
+.lec::before, .maz::before, .msc::before, .nor::before, .oco::before, .per::before,
+.ric::before, .rus::before, .sai::before, .str::before, .tsu::before, .ver::before,
+.vet::before, .zho::before {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 44px;
+    line-height: 44px;
+}
+.alb::before {
+    content: var(--car-alb);
+    background: var(--williams);
+}
+.alo::before {
+    content: var(--car-alo);
+    background: var(--alpine);
+}
+.bot::before {
+    content: var(--car-bot);
+    background: var(--alfa-romeo);
+}
+.gas::before {
+    content: var(--car-gas);
+    background: var(--alpha-tauri);
+}
+.ham::before {
+    content: var(--car-ham);
+    background: var(--mercedes);
+}
+.lat::before {
+    content: var(--car-lat);
+    background: var(--williams);
+}
+.lec::before {
+    content: var(--car-lec);
+    background: var(--ferrari);
+}
+.maz::before {
+    content: var(--car-maz);
+    background: var(--haas);
+}
+.msc::before {
+    content: var(--car-msc);
+    background: var(--haas);
+}
+.nor::before {
+    content: var(--car-nor);
+    background: var(--mclaren);
+}
+.oco::before {
+    content: var(--car-oco);
+    background: var(--alpine);
+}
+.per::before {
+    content: var(--car-per);
+    background: var(--red-bull);
+}
+.ric::before {
+    content: var(--car-ric);
+    background: var(--mclaren);
+}
+.rus::before {
+    content: var(--car-rus);
+    background: var(--mercedes);
+}
+.sai::before {
+    content: var(--car-sai);
+    background: var(--ferrari);
+}
+.str::before {
+    content: var(--car-str);
+    background: var(--aston-martin);
+}
+.ver::before {
+    content: var(--car-ver);
+    background: var(--red-bull);
+}
+.vet::before {
+    content: var(--car-vet);
+    background: var(--aston-martin);
+}
+.zho::before {
+    content: var(--car-zho);
+    background: var(--alfa-romeo);
+}
+@media only screen and (max-width: 1920px) {
+    .alb::before, .alo::before, .bot::before, .gas::before, .ham::before, .lat::before,
+    .lec::before, .maz::before, .msc::before, .nor::before, .oco::before, .per::before,
+    .ric::before, .rus::before, .sai::before, .str::before, .tsu::before, .ver::before,
+    .vet::before, .zho::before {
+        font-size: 22px;
+        font-weight: 600;
+        width: 32px;
+        line-height: 32px;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .alb::before, .alo::before, .bot::before, .gas::before, .ham::before, .lat::before,
+    .lec::before, .maz::before, .msc::before, .nor::before, .oco::before, .per::before,
+    .ric::before, .rus::before, .sai::before, .str::before, .tsu::before, .ver::before,
+    .vet::before, .zho::before {
+        font-size: 22px;
+        font-weight: 600;
+        width: 32px;
+        line-height: 32px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .alb::before, .alo::before, .bot::before, .gas::before, .ham::before, .lat::before,
+    .lec::before, .maz::before, .msc::before, .nor::before, .oco::before, .per::before,
+    .ric::before, .rus::before, .sai::before, .str::before, .tsu::before, .ver::before,
+    .vet::before, .zho::before {
+        font-size: 16px;
+        font-weight: 400;
+        width: 24px;
+        line-height: 24px;
+    }
+}
